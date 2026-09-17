@@ -1,6 +1,7 @@
-//====
+//===
 // Lessons imports
-import Lesson05 from "./lessons/Lesson05/Lesson05";
+// import Lesson05 from "./lessons/Lesson05/Lesson05";
+import Lesson06 from "./lessons/Lesson06/Lesson06";
 // Homeworks imports
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
     // новый элемент добавлен не будет
     <>
       {/* Lesson05. TypeScript */}
-      <Lesson05 />
+      {/* <Lesson05 /> */}
+      {/* Lesson06. Component typing */}
+      <Lesson06/>
     </>
   );
 }
