@@ -1,3 +1,5 @@
+
+//====
 import styled from "@emotion/styled";
 export const InputWrapper = styled.div`
   display: flex;
@@ -20,3 +22,8 @@ export const InputComponent = styled.input`
     color: rgb(48, 43, 114);
   }
 `;
+export const ErrorMessage = styled.div`
+  font-size: 14px;
+  color: red;
+`;
+

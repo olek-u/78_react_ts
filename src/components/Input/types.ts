@@ -1,3 +1,5 @@
+
+//===
 import type { ChangeEvent } from "react";
 export interface InputProps {
   name: string;
@@ -7,4 +9,5 @@ export interface InputProps {
   value?: string;
   onChange?: (event: ChangeEvent<HTMLInputElement>) => void;
   label?: string;
+  error?: string;
 }

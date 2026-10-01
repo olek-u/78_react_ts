@@ -5,8 +5,9 @@ import GlobalStyles from "./styles/GlobalStyles";
 // import Lesson06 from "./lessons/Lesson06/Lesson06";
 // import Lesson07 from "./lessons/Lesson07/Lesson07";
 // import Lesson08 from "./lessons/Lesson08/Lesson08";
-import Lesson09 from "./lessons/Lesson09/Lesson09";
+// import Lesson09 from "./lessons/Lesson09/Lesson09";
 // Homeworks imports
+import Lesson10 from "./lessons/Lesson10/Lesson10";
 function App() {
   return (
     // <></> - fragmet. Он позволяет задать обертку (выступает в качестве родителя), чтобы
@@ -23,7 +24,8 @@ function App() {
       {/* Lesson 08. Controlled and uncontrolled components */}
       {/*<Lesson08 />*/}
       {/* Lesson 09. Controlled and uncontrolled components */}
-      <Lesson09 />
+      {/*<Lesson09 />*/}
+      <Lesson10 />
       
     </>
   );
